@@ -11,7 +11,11 @@ import (
 	"strings"
 )
 
+<<<<<<< HEAD
 // 开发者 github token
+=======
+// 开发者 GitHub token
+>>>>>>> 2573ebdb67e8149eb386c753e17458286aef52f9
 const token = ""
 
 // 定义一个访问者结构体
@@ -79,6 +83,12 @@ func (self *Visitor) md2html(arg map[string]string) error {
 		req.Header.Set("Authorization", "token "+token)
 		//
 		resp, err := client.Do(req)
+<<<<<<< HEAD
+=======
+		if err!=nil {
+			fmt.Println("err:",err)
+		}
+>>>>>>> 2573ebdb67e8149eb386c753e17458286aef52f9
 
 		defer resp.Body.Close()
 

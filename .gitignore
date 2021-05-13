@@ -9,4 +9,11 @@ _book
 .gitignore
 .vscode
 .git
+<<<<<<< HEAD
 /fa/working
+=======
+/fa/working
+
+# Folders
+.idea/
+>>>>>>> 2573ebdb67e8149eb386c753e17458286aef52f9
